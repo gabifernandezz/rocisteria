@@ -11,8 +11,10 @@ require 'database.php';
 </head>
 
 <body>
-    <h1>Pácina de Administración de la Rosticeria</h1>
+    <h1>Página de Administración de la Rosticeria</h1>
     //TODO: crear enlaces a las secciones
+
+    <a href="./platos/index.php">Ir a platos</a>
 </body>
 
 </html>

@@ -1,3 +1,10 @@
+<?php
+require 'database.php';
+
+$stmt = $pdo->query('SELECT * FROM platos');
+$stmt->execute();
+$posts = $stmt->fetchAll();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,8 +15,9 @@
 </head>
 
 <body>
-    <h1>Administración de Platos</h1>
-    //TODO: crear el crud de los platos
+    <div class="container mt-5">
+        <h2 class="mb-4">Platos</h2>
+    </div>    
 </body>
 
 </html>
